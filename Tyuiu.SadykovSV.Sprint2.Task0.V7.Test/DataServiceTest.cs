@@ -1,5 +1,4 @@
 ﻿using Tyuiu.SadykovSV.Sprint2.Task0.V7.Lib;
-
 namespace Tyuiu.SadykovSV.Sprint2.Task0.V7.Test
 {
     [TestClass]
