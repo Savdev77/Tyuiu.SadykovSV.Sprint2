@@ -25,4 +25,5 @@ for (int i = 0; i < 6; i++)
 {
     Console.WriteLine(results[i]);
 }
+
 Console.ReadKey();  
