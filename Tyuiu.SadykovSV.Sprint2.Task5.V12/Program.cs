@@ -17,10 +17,22 @@ Console.WriteLine("*************************************************************
 
 Console.WriteLine("Введите число n:");
 int n = Convert.ToInt32(Console.ReadLine());
+if (n<1) || (n > 31)
+{
+    Console.WriteLine("Ошибка: число n должно быть в диапазоне от 1 до 31.");
+}
 Console.WriteLine("Введите номер месяца m:");
 int m = Convert.ToInt32(Console.ReadLine());
+if (m < 1) || (m > 12)
+{
+    Console.WriteLine("Ошибка: номер месяца m должен быть в диапазоне от 1 до 12.");
+}
 Console.WriteLine("Введите год g:");
 int g = Convert.ToInt32(Console.ReadLine());
+if (g < 1)
+{
+    Console.WriteLine("Ошибка: год g должен быть положительным числом.");
+}
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
