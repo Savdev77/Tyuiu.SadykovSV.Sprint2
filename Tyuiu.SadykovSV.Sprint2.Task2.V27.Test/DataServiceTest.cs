@@ -9,8 +9,8 @@ namespace Tyuiu.SadykovSV.Sprint2.Task2.V27.Test
         public void ValidCheckDotInShadedArea()
         {
             DataService ds = new DataService();
-            int x = 6;
-            int y = 11;
+            int x = 9;
+            int y = 6;
             bool expected = true;
             bool res = ds.CheckDotInShadedArea(x, y);
             Assert.AreEqual(expected, res);
