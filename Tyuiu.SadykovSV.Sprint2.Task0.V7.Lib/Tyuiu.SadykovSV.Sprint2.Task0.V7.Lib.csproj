@@ -5,8 +5,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
     <Reference Include="tyuiu.cources.programming.interfaces">
-      <HintPath>..\..\Tyuiu.SadykovSV.Sprint2\tyuiu.cources.programming.interfaces.dll</HintPath>
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
   </ItemGroup>
 

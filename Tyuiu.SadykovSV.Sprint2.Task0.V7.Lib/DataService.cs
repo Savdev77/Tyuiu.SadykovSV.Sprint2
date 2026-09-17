@@ -7,11 +7,11 @@ namespace Tyuiu.SadykovSV.Sprint2.Task0.V7.Lib
         {
             bool[] results = new bool[6];
             results[0] = x + 372 == y;
-            results[1] = x + 372 != y; 
-            results[2] = x < y;  
-            results[3] = x + 373 > y;  
-            results[4] = x <= y; 
-            results[5] = x >= y; 
+            results[1] = x + 372 != y;
+            results[2] = x < y;
+            results[3] = x + 373 > y;
+            results[4] = x <= y;
+            results[5] = x >= y;
             return results;
         }
     }
